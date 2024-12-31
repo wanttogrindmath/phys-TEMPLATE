@@ -28,6 +28,7 @@ borderline west={4pt}{0pt}{colback=black!!white},
 colback=white!10!white,
 sharp corners
 }
+\renewcommand\refname{References:}
 
 
 \title{Laboratory Report 1}								
@@ -121,6 +122,11 @@ with mlt.rc_context({'lines.linewidth': 1, 'lines.linestyle': '--', 'axes.prop_c
     plt.savefig('rep.png', dpi = 1000)
     plt.show()
 \end{python}
+
+\nocite{luo2005quantitative}
+
+\bibliographystyle{plain}
+\bibliography{ref}
 
 
 
